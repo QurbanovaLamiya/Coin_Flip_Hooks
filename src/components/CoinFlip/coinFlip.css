@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+  color: #a57373;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  width: 40%;
+  border: 2px solid #a57373;
+}
+.container button {
+  background: #a57373;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  color: #fff;
+  margin: 20px 0;
+}
+.container span {
+  color: #a57373;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 5px;
+}
